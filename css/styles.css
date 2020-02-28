@@ -1,8 +1,8 @@
 
   body{
-    background-image: url(https://bit.ly/2I4AXIE);
+    background-image: url(https://bit.ly/39espek);
     background-size: cover;
-
+color: white;
   }
     .jumbotron {
         background-image: url("https://bit.ly/32zk8yL");
@@ -16,6 +16,7 @@
       color: rgb(238, 228, 228);
       text-decoration: underline;
       margin-top:0;
+      color: white;
     }
   .well, h3, h4 {
     font-family: 'Raleway', sans-serif;
@@ -24,7 +25,7 @@
       text-align: center;
       text-decoration: underline;
       font-size: 37px;
-      color: darkblue;
+      color:white;
       text-transform: capitalize;
   }
   .text-center{
@@ -66,18 +67,22 @@
   #style{
       font-size: 20px;
       background-color: green;
+      color: white;
   }
   #submitPizza{
       font-size: 20px;
       background-color:green;
+      color: white;
   }
   #submitCart{
     font-size: 20px;
     background-color:green;
+    color: white;
   }
   #size{
     font-size: 20px;
     background-color: green;
+    color: white;
 }
 #pickup{
     font-size: 20px;
@@ -86,6 +91,7 @@
 #delivery{
     font-size: 20px;
     background-color:green;
+    color: white;
 }
 #nav{
     font-size: 20px;
@@ -96,6 +102,7 @@
 #submitDeliveryForm{
     font-size: 20px;
     background-color:green;
+    color: white;
 }
   .cartWell, .choiceWell, .deliveryWell, .pickupWell, #show-pizza, #pickupEnd, #deliveryEnd {
     display: none;

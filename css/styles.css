@@ -1,15 +1,16 @@
 body{
-    background-color: transparent; 
+    background-color: rgb(182, 174, 174); 
   }
     .jumbotron {
       font-family: 'Alfa Slab One', cursive;
-      background-image: url("https://bit.ly/3adh6Dc");
+      background-image: url("https://bit.ly/3abxu6Z");
       background-size: cover;
-     text-shadow: 5px 5px 10px white;
+     text-shadow: 5px 5px 10px black;
      background-size: cover;
      height: 250px;
      font-size: 55px;
      text-align: center;
+     color: white;
     }
     .top{
         text-align: center;
@@ -26,4 +27,8 @@ body{
       }
       .well, h3, h4 {
         font-family: 'Raleway', sans-serif;
+        text-align: center;
       }
+.tony{
+    text-align: center;
+}

@@ -13,7 +13,7 @@
     <script src="js/jquery-3.4.1.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
+<div class="container-fluid">
 <div class="jumbotron text-center">
 <hi><strong>Tony pizzaMaker.</strong></hi>
 </div>
@@ -47,16 +47,25 @@
 <input type="checkbox" name="topping" value="Mozarella"> Mozarella Balls<br>
 </div>
 <div class="text-center">
-    <button type="submit" class="btn btn-danger" id="submitPizza">Place in Cart</button>
+<button type="submit" class="btn btn-danger" id="submitPizza">Place in Cart</button>
 </div>
 </form>
 </div>
 <div class="well cartWell">
 <div class="text-center">
-    <h3>Your Cart</h3>
-    <h4>Your Total: $<span class="cartTotal"></span></h4>
+<h3>Your Cart</h3>
+<h4>Your Total: $<span class="cartTotal"></span></h4>
 </div>
 </div>
-    </div>
+<div class="tony">
+    <div class="well choiceWell text-center">
+<p>You can either pick up your order or get it delivered to your place.</p>
+<p>Pick Up cost $0</p>
+<button type="button" class="btn btn-success" id="pickup">Pick Up</button>
+<p id="deliveryCost">Delivery cost $10</p>
+<button type="button" class="btn btn-danger" id="delivery">Delivery</button>
+</div>
+</div>
+</div>
 </body>
 </html>

@@ -1,41 +1,30 @@
-body{
-    background-color: rgb(182, 174, 174); 
+body {
+    background-color: rgb(206, 194, 194);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
   }
-    .jumbotron {
-      font-family: 'Alfa Slab One', cursive;
-      background-image: url("https://bit.ly/3abxu6Z");
-      background-size: cover;
-     text-shadow: 5px 5px 10px black;
-     background-size: cover;
-     height: 250px;
-     font-size: 55px;
-     text-align: center;
-     color: white;
-    }
-    .caution{
-        font-size: 20px;
-    }
-    .top{
-        text-align: center;
-        text-decoration: hsl(hue, saturation, lightness);
-        text-shadow: green;
-        font-size: 30px;
-    }
-    .person{
-        text-align: center;
-    }
-    .qHeader {
-        text-decoration: underline;
-        font-size: 25px;
-      }
-      .well, h3, h4 {
-        font-family: 'Raleway', sans-serif;
-        text-align: center;
-      }
-.tony{
-    text-align: center;
-}
-.cartItem {
+
+.jumbotron {
+    background-image: url("");
+    font-family: 'Times New Roman', Times, serif;
+    background-size: contain;
+    text-shadow: 1px 1px 10px black;
+  }
+  .well, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .well {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .qHeader {
+    text-decoration: underline;
+  }
+  
+  .cartItem {
     cursor: pointer;
     color: #0088cc;
   }

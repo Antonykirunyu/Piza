@@ -38,14 +38,14 @@
 <div class="form-group">
 <p class="qHeader">Toppings: ($2 per topping)</p>
 <div class="caution">
-<input type="checkbox" name="topping" value="Pepperoni"> Pepperoni<br>
-<input type="checkbox" name="topping" value="Sausage"> Sausage<br>
-<input type="checkbox" name="topping" value="Ham"> Ham<br>
-<input type="checkbox" name="topping" value="Olive"> Black Olives<br>
-<input type="checkbox" name="topping" value="Bell"> Bell Pepper<br>
-<input type="checkbox" name="topping" value="Pineapple"> Pineapple<br>
-<input type="checkbox" name="topping" value="Basil"> Fresh Basil<br>
-<input type="checkbox" name="topping" value="Mozarella"> Mozarella Balls<br>
+<input type="checkbox" name="topping" value="Pepperoni"> Pepperoni.
+<br><input type="checkbox" name="topping" value="Sausage"> Sausage.
+<br><input type="checkbox" name="topping" value="Ham"> Ham.
+<br><input type="checkbox" name="topping" value="Olive"> Black Olives.
+<br><input type="checkbox" name="topping" value="Bell"> Bell Pepper.
+<br><input type="checkbox" name="topping" value="Pineapple"> Pineapple.
+<br><input type="checkbox" name="topping" value="Basil"> Fresh Basil.
+<br><input type="checkbox" name="topping" value="Mozarella"> Mozarella Balls.
 </div>
 </div>
 <div class="text-center">
@@ -95,6 +95,12 @@
     </div>
     <button type="button" class="btn btn-danger" id="submitDeliveryForm">Submit</button>
     </form>
+    <div id="deliveryEnd">
+        <p>Okay! We are sending this order to <span class="nameInput"></span> at <span class="addressInput"></span>.</p>
+        <p>You can expect your order to arrive in 50 minutes.</p>
+        <button type="button" class="btn btn-danger reset">Order More Pizza!</button>
+        </div>
+        </div>
 </div>
 </body>
 </html>

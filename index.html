@@ -37,6 +37,7 @@
 <br>
 <div class="form-group">
 <p class="qHeader">Toppings: ($2 per topping)</p>
+<div class="caution">
 <input type="checkbox" name="topping" value="Pepperoni"> Pepperoni<br>
 <input type="checkbox" name="topping" value="Sausage"> Sausage<br>
 <input type="checkbox" name="topping" value="Ham"> Ham<br>
@@ -45,6 +46,7 @@
 <input type="checkbox" name="topping" value="Pineapple"> Pineapple<br>
 <input type="checkbox" name="topping" value="Basil"> Fresh Basil<br>
 <input type="checkbox" name="topping" value="Mozarella"> Mozarella Balls<br>
+</div>
 </div>
 <div class="text-center">
 <button type="submit" class="btn btn-danger" id="submitPizza">Place in Cart</button>
@@ -66,6 +68,33 @@
 <button type="button" class="btn btn-danger" id="delivery">Delivery</button>
 </div>
 </div>
+<div class="well pickupWell text-center">
+<form id="pickupForm">
+<div class="form-group">
+<label for="name">Enter the name of the person picking up your order:</label>
+<input id="pickupName" class="form-control" type="text">
+</div>
+<button type="button" class="btn btn-success" id="submitPickupForm">Submit</button>
+</form>
+<div id="pickupEnd">
+<p>Thanks for ordering from Tony pizzaMaker. <span class="nameInput"></span> can pick up your order in 30 min to 45 min!</p>
+<button type="button" class="btn btn-success reset">Order More Pizza!</button>
+</div>
+</div>
+<div class="well deliveryWell text-center">
+    <form id="deliveryForm">
+    <div class="form-group">
+    <label for="name" required>Enter Name:</label>
+    <input id="deliveryName" class="form-control" type="text">
+    <label for="address">Enter Address:</label>
+    <input id="address" class="form-control" type="text">
+    <label for="city">Enter City:</label>
+    <input id="city" class="form-control" type="text">
+    <label for="county">Enter County:</label>
+    <input id="county" class="form-control" type="text">
+    </div>
+    <button type="button" class="btn btn-danger" id="submitDeliveryForm">Submit</button>
+    </form>
 </div>
 </body>
 </html>

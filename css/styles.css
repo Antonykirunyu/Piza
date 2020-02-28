@@ -1,20 +1,35 @@
-body {
-    background-color: rgb(206, 194, 194);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-  }
 
-.jumbotron {
-    background-image: url("");
-    font-family: 'Times New Roman', Times, serif;
-    background-size: contain;
-    text-shadow: 1px 1px 10px black;
+  body{
+    background-image: url(https://bit.ly/2I4AXIE);
+    background-size: cover;
+
   }
+    .jumbotron {
+        background-image: url("https://bit.ly/32zk8yL");
+      font-family: 'Alfa Slab One', cursive;
+      background-size: cover;
+      text-shadow: 5px 5px 10px black;
+      background-size: cover;
+      height: 150px;
+      text-align: center;
+      font-size: 30px;
+      color: rgb(238, 228, 228);
+      text-decoration: underline;
+      margin-top:0;
+    }
   .well, h3, h4 {
     font-family: 'Raleway', sans-serif;
   }
-  
+  .top{
+      text-align: center;
+      text-decoration: underline;
+      font-size: 37px;
+      color: darkblue;
+      text-transform: capitalize;
+  }
+  .text-center{
+      text-align: center;
+  }
   .well {
     margin-left: 20%;
     margin-right: 20%;
@@ -22,21 +37,72 @@ body {
   
   .qHeader {
     text-decoration: underline;
+    font-size: 25px;
+    text-align: center;
+  }
+  .person{
+      text-align: center;
+      font-size: 20px;
+      font-weight: 100;
+
+  }
+  option{
+      text-align: center;
   }
   
   .cartItem {
     cursor: pointer;
     color: #0088cc;
   }
-  
+  #sam{
+      font-size: 25px;
+      text-shadow: indigo;
+      text-size-adjust: 10px;
+      text-decoration: underline;
+  }
   .cartItem:hover {
     text-decoration: underline;
   }
-  
+  #style{
+      font-size: 20px;
+      background-color: green;
+  }
+  #submitPizza{
+      font-size: 20px;
+      background-color:green;
+  }
+  #submitCart{
+    font-size: 20px;
+    background-color:green;
+  }
+  #size{
+    font-size: 20px;
+    background-color: green;
+}
+#pickup{
+    font-size: 20px;
+    background-color:green;
+}
+#delivery{
+    font-size: 20px;
+    background-color:green;
+}
+#nav{
+    font-size: 20px;
+}
+.nav{
+    font-size: 20px;
+}
+#submitDeliveryForm{
+    font-size: 20px;
+    background-color:green;
+}
   .cartWell, .choiceWell, .deliveryWell, .pickupWell, #show-pizza, #pickupEnd, #deliveryEnd {
     display: none;
   }
-  
+  .form-group{
+      text-align: center;
+  }
   button#pickup, button#delivery {
     margin-left: 33%;
     margin-right: 33%;

@@ -8,9 +8,9 @@ function Pizza(style, size) {
     Pizza.prototype.cost = function() {
     var price = 0;
     if (this.size === "small") {
-    price += 9;
+    price += 5;
     } else if (this.size === "Medium") {
-    price += 13;
+    price += 10;
     } else if (this.size === "Large") {
     price += 15;
     } else {
@@ -18,9 +18,16 @@ function Pizza(style, size) {
     }
     
     for (var i = 0; i < this.toppings.length; i++) {
-    price += 1;
+    price += 5;
     }
-    
+    if (this.crust ==="Cripsy"){
+        price += 10;
+    }else if (this.crust === "Stuffed"){
+        price +=15;
+    }else{
+        price +=20
+    }
+
     this.price = price;
     }
     
@@ -78,7 +85,7 @@ function Pizza(style, size) {
     });
     
     $("button#delivery").click(function() {
-    total += 7;
+    total += 10;
     $(".cartTotal").text(total);
     $(".choiceWell").hide();
     $(".deliveryWell").show();

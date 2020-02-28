@@ -1,0 +1,16 @@
+body{
+    background-color: transparent; 
+  }
+    .jumbotron {
+      font-family: 'Alfa Slab One', cursive;
+      background-image: url("https://bit.ly/3adh6Dc");
+      background-size: cover;
+     text-shadow: 5px 5px 10px white;
+     background-size: cover;
+     height: 250px;
+     font-size: 55px;
+     text-align: center;
+    }
+    .top{
+        text-align: center;
+    }

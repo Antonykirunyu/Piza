@@ -9,7 +9,7 @@ function Pizza(style, size) {
     var price = 0;
     if (this.size === "small") {
     price += 5;
-    } else if (this.size === "Medium") {
+    } else if (this.size === "Medevice-widthdium") {
     price += 10;
     } else if (this.size === "Large") {
     price += 15;

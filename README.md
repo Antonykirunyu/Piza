@@ -13,7 +13,7 @@ their order and button to Order More. Clicking Order More resets the page. If th
 their total increases by 10 and a form appears for their name and address. After submitting their info, a page will
 appear confirming their information and a expected time for their delivery. The Order More button will appear and 
 if they click on it, it resets the page.
-### Set up instructions
+### Set up instructions.
 * You need to have a github account for deploying the project.
 You need to have a good internet connection
 * You can click the link below for the live project on github.

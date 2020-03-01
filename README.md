@@ -1,5 +1,5 @@
 # Pizza.
-## Author
+## Author.
 Antony Kirunyu
 ### Description;
 This is webpage that helps customers to order pizza and get it delivered to their place or pick it by themselves.

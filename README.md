@@ -2,7 +2,7 @@
 ## Author.
 Antony Kirunyu
 ### Description;
-This is webpage that helps customers to order pizza and get it delivered to their place or pick it by themselves.
+This is webpage that helps customers to order pizza and get it delivered to their place or pick it by themselves .
 This  webpage is designed to take user input for a pizza. This page has a header for the name of the company, a form for 
 various parts of the pizza, such as toppings and size of pizza, and a submit button for the pizza, which will 
 then reveal the user's cart. As the user adds more pizzas the cart reflects their order and their cart total 

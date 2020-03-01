@@ -1,4 +1,4 @@
-# Pizza
+# Pizza.
 ## Author.
 Antony Kirunyu
 ### Description;
@@ -25,7 +25,7 @@ The project is created with;
 * JQUERY
 * JAVASCRIPT
 * BOOTSTRAP
-## License
+## License.
 Licensed under the [MIT license](LICENSE). 
  ### Support and Colaboration.
  If anyone would like to add more details to the website, kindly clone the website and contact me for permission to merge your changes.

@@ -27,7 +27,7 @@ The project is created with;
 * BOOTSTRAP
 ## License.
 Licensed under the [MIT license](LICENSE). 
- ### Support and Colaboration
+ ### Support and Colaboration.
  If anyone would like to add more details to the website, kindly clone the website and contact me for permission to merge your changes.
  ## Contacts details.
  * Email : kirunyuanthony@gmail.com

@@ -1,4 +1,4 @@
-# Pizza
+# Pizza.
 ## Author
 Antony Kirunyu
 ### Description;
